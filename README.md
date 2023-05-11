@@ -8,6 +8,9 @@ It works with raylib version 4.5. Tested on both Windows 10 and Windows 11.
 2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
 3. Press F5 on the keyboard to compile and run the program.
 
+# What's changed
+The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+
 # Video Tutorial
 
 <p align="center">
