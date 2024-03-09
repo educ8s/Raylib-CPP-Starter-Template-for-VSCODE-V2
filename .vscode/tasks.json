@@ -82,7 +82,7 @@
                 "kind": "build",
                 "isDefault": false
             },
-            "detail": "compiler: C:\\raylib\\mingw\\bin\\g++.exe"
+            "detail": "compiler: C:\\raylib\\w64devkit\\bin\\g++.exe"
         }
     ]
 }
