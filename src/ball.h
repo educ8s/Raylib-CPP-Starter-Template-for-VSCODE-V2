@@ -5,7 +5,7 @@ class Ball
 public:
     Ball();
     void Update();
-    void Draw();
+    void Draw() const;
 
 private:
     int x;
