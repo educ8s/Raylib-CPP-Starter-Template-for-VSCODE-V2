@@ -1,29 +1,66 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 6.0. Tested on both Windows 10 and Windows 11.
+# Raylib-CPP Starter Template for VS Code
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+![Language](https://img.shields.io/badge/language-C%2B%2B-brightgreen)
+![Raylib](https://img.shields.io/badge/raylib-6.0-00d4aa)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
+![Editor](https://img.shields.io/badge/editor-VS%20Code-007ACC)
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
-
-# Video Tutorial
+A minimal C++ project scaffold for Visual Studio Code on Windows — includes a bouncing ball demo and zero boilerplate friction.
 
 <p align="center">
-  <img src="preview.jpg" alt="" width="800">
+  <img src="preview.jpg" alt="Preview of the bouncing ball demo" width="800">
 </p>
 
-<p align="center">
-🎥 <a href="https://youtu.be/acvgbKRaxDI">Video Tutorial on YouTube</a>
-</p>
+---
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+## Get started in 3 steps
+
+**1.** Double-click `main.code-workspace` to open the project in VS Code.
+
+**2.** In the Explorer panel, navigate to the `src/` folder and open `main.cpp`.
+
+**3.** Press `F5` to compile and run.
+
+---
+
+## What's inside
+
+| | Feature | Details |
+|---|---|---|
+| 📁 | **Clean folder structure** | All source code lives in `src/` for clear organisation |
+| 🎱 | **Bouncing ball demo** | Ready-to-run example using raylib's core 2D drawing API |
+| ⚙️ | **VS Code tasks** | Pre-configured build tasks — no manual setup required |
+| ✅ | **Tested on Win 10/11** | Works with raylib 6.0 on both platforms out of the box |
+
+---
+
+## Quick look
+
+```cpp
+int main() {
+    InitWindow(800, 450, "Bouncing Ball");
+
+    // your raylib game loop here
+    while (!WindowShouldClose()) {
+        BeginDrawing();
+        DrawCircle(x, y, 20, RED);
+        EndDrawing();
+    }
+}
+```
+
+---
+
+## What's changed
+
+The template now uses folders for better organisation. All source code lives in the `src/` folder.
+
+---
+
+## Resources
+
+🎥 [Video Tutorial on YouTube](https://www.youtube.com/watch?v=PaAcVk5jUd8)
+&nbsp;&nbsp;|&nbsp;&nbsp;
+📺 [My YouTube Channel](https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg)
+&nbsp;&nbsp;|&nbsp;&nbsp;
+🌍 [My Website](http://www.programmingwithnick.com)
