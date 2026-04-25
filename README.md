@@ -8,7 +8,9 @@
 A minimal C++ project scaffold for Visual Studio Code on Windows — includes a bouncing ball demo and zero boilerplate friction.
 
 <p align="center">
-  <img src="preview.jpg" alt="Preview of the bouncing ball demo" width="800">
+  <a href="https://youtu.be/acvgbKRaxDI">
+    <img src="preview.jpg" alt="Preview of the bouncing ball demo — click to watch tutorial" width="800">
+  </a>
 </p>
 
 ---
@@ -76,6 +78,6 @@ The template now uses folders for better organisation. All source code lives in 
 
 ## Resources
 
-🎥 [Video Tutorial on YouTube](https://www.youtube.com/watch?v=PaAcVk5jUd8)
+🎥 [Video Tutorial on YouTube](https://youtu.be/acvgbKRaxDI)
 &nbsp;&nbsp;|&nbsp;&nbsp;
 📺 [My YouTube Channel](https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg)
