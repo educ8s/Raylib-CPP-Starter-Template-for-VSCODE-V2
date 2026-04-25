@@ -37,15 +37,32 @@ A minimal C++ project scaffold for Visual Studio Code on Windows — includes a 
 ## Quick look
 
 ```cpp
-int main() {
-    InitWindow(800, 450, "Bouncing Ball");
+#include <raylib.h>
+#include "ball.h"
 
-    // your raylib game loop here
-    while (!WindowShouldClose()) {
+int main()
+{
+    const Color darkGreen = {20, 160, 133, 255};
+
+    constexpr int screenWidth = 800;
+    constexpr int screenHeight = 600;
+
+    Ball ball;
+
+    InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
+    SetTargetFPS(60);
+
+    while (!WindowShouldClose())
+    {
+        ball.Update();
+
         BeginDrawing();
-        DrawCircle(x, y, 20, RED);
+            ClearBackground(darkGreen);
+            ball.Draw();
         EndDrawing();
     }
+
+    CloseWindow();
 }
 ```
 
@@ -62,5 +79,3 @@ The template now uses folders for better organisation. All source code lives in 
 🎥 [Video Tutorial on YouTube](https://www.youtube.com/watch?v=PaAcVk5jUd8)
 &nbsp;&nbsp;|&nbsp;&nbsp;
 📺 [My YouTube Channel](https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg)
-&nbsp;&nbsp;|&nbsp;&nbsp;
-🌍 [My Website](http://www.programmingwithnick.com)
