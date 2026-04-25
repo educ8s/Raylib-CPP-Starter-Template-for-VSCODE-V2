@@ -13,6 +13,12 @@ A minimal C++ project scaffold for Visual Studio Code on Windows — includes a 
   </a>
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/acvgbKRaxDI">
+    <img src="https://img.shields.io/badge/▶%20Watch%20the%20Video%20Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the Video Tutorial on YouTube">
+  </a>
+</p>
+
 ---
 
 ## Get started in 3 steps
