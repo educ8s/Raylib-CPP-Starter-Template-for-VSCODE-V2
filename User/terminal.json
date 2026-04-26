@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.stickyScroll.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+        "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+        },
+
+        "w64DevKit": {
+        "path": "C:\\raylib\\w64devkit\\bin\\sh.exe",
+        "args": [],
+        "env": {
+            "PATH": "${env:PATH}C:\\raylib\\w64devkit\\bin"
+        },
+        "icon": "terminal-linux"
+        }
+    },
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    "editor.rulers": [    
+    ],
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "makefile.configureOnOpen": true
+}
